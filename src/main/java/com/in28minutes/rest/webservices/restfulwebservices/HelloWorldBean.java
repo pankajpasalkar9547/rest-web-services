@@ -2,20 +2,20 @@ package com.in28minutes.rest.webservices.restfulwebservices;
 
 public class HelloWorldBean  {
 	
-	private String message;
+	private String message1;
 
 
-	public HelloWorldBean(String message2) {
+	public HelloWorldBean(String message12) {
 		// TODO Auto-generated constructor stub
-		this.message = message2;
+		this.message1 = message12;
 	}
 
-	public String getMessage() {
-		return message;
+	public String getmessage1() {
+		return message1;
 	}
 
-	public void setMessage(String message) {
-		this.message = message;
+	public void setmessage1(String message1) {
+		this.message1 = message1;
 	}
 
 }
