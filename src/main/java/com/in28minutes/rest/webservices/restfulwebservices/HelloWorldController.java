@@ -10,7 +10,8 @@ public class HelloWorldController {
 	//@RequestMapping(method = RequestMathod.GET,path="/hello-world")
 	public String helloWorld()
 	{
-		return "Pankaj Pasalkar Dev.";
+
+		return "Pankaj Shivaji Pasalkar Another.";
 	}
 	
 	@GetMapping(path="/hello-world-bean")
